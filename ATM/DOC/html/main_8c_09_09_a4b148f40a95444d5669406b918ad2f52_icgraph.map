@@ -1,0 +1,5 @@
+<map id="show" name="show">
+<area shape="rect" id="node1" title="Displays the main menu options." alt="" coords="215,5,271,32"/>
+<area shape="rect" id="node2" href="$main_8c_09_09.html#a6a2e8be654511fc8d9d61fd2c43b70eb" title="Verifies the user&#39;s password before proceeding." alt="" coords="108,5,167,32"/>
+<area shape="rect" id="node3" href="$main_8c_09_09.html#a840291bc02cba5474a4cb46a9b9566fe" title="The main entry point of the program." alt="" coords="5,5,60,32"/>
+</map>

@@ -1,0 +1,235 @@
+\hypertarget{main_8c_09_09}{}\doxysection{main.\+c++ File Reference}
+\label{main_8c_09_09}\index{main.c++@{main.c++}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+Include dependency graph for main.\+c++\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{main_8c_09_09__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8c_09_09_a4b148f40a95444d5669406b918ad2f52}{show}} ()
+\begin{DoxyCompactList}\small\item\em Displays the main menu options. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_09_09_a0e737aeeefda7f02c2b02a3c04dadf23}{process}} (void($\ast$show\+\_\+ptr)())
+\begin{DoxyCompactList}\small\item\em Processes the user\textquotesingle{}s choice and executes the corresponding actions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_09_09_a6a2e8be654511fc8d9d61fd2c43b70eb}{verify}} (void($\ast$func)(void($\ast$)()))
+\begin{DoxyCompactList}\small\item\em Verifies the user\textquotesingle{}s password before proceeding. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_09_09_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em The main entry point of the program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{main_8c_09_09_a0e88b38f167218dabb67d6b857b2662c}{balance}} = 1000
+\begin{DoxyCompactList}\small\item\em Current account balance. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8c_09_09_a98a36e3d6e10be44dacf92826b9f1844}{deposit}} = 0
+\begin{DoxyCompactList}\small\item\em Amount to deposit. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8c_09_09_abf0f9a530d509ce33dae2a45ef1483e0}{withd\+Draw}} = 0
+\begin{DoxyCompactList}\small\item\em Amount to withdraw. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8c_09_09_a59931f807c4c43ccc6707998c471bc01}{real\+\_\+password}} = 1
+\begin{DoxyCompactList}\small\item\em The real password for verification. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_09_09_a7a71647d7d31e470e02ac3e2412f78ac}{input\+\_\+password}} = 0
+\begin{DoxyCompactList}\small\item\em User\textquotesingle{}s input password. \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{main_8c_09_09_a99d5eace942cac61de65aefc69adbd5d}{choice}} = 0
+\begin{DoxyCompactList}\small\item\em User\textquotesingle{}s menu choice. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_09_09_a6e27f49150e9a14580fb313cc2777e00}{status}} = 0
+\begin{DoxyCompactList}\small\item\em Status to continue or exit the process. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_09_09_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8c_09_09_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.c++@{main.c++}!main@{main}}
+\index{main@{main}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+The main entry point of the program. 
+
+This function initiates the program by calling the \textquotesingle{}verify\textquotesingle{} function.
+
+\begin{DoxyReturn}{Returns}
+int Returns 0 upon successful completion 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{main_8c_09_09_a840291bc02cba5474a4cb46a9b9566fe_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8c_09_09_a0e737aeeefda7f02c2b02a3c04dadf23}\label{main_8c_09_09_a0e737aeeefda7f02c2b02a3c04dadf23}} 
+\index{main.c++@{main.c++}!process@{process}}
+\index{process@{process}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{process()}{process()}}
+{\footnotesize\ttfamily void process (\begin{DoxyParamCaption}\item[{void($\ast$)()}]{show\+\_\+ptr }\end{DoxyParamCaption})}
+
+
+
+Processes the user\textquotesingle{}s choice and executes the corresponding actions. 
+
+This function is responsible for handling user input and performing actions such as checking balance, depositing money, withdrawing money, or exiting.
+
+
+\begin{DoxyParams}{Parameters}
+{\em show\+\_\+ptr} & A pointer to the \textquotesingle{}show\textquotesingle{} function \\
+\hline
+\end{DoxyParams}
+$<$ Display the main menu
+
+$<$ Pointer to the \textquotesingle{}process\textquotesingle{} function
+
+$<$ Re-\/call process
+
+$<$ Update balance
+
+$<$ Re-\/call process
+
+$<$ Re-\/call process
+
+$<$ Update balance after withdrawal
+
+$<$ Re-\/call process
+
+$<$ Re-\/call process
+
+$<$ Re-\/call processHere is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{main_8c_09_09_a0e737aeeefda7f02c2b02a3c04dadf23_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8c_09_09_a4b148f40a95444d5669406b918ad2f52}\label{main_8c_09_09_a4b148f40a95444d5669406b918ad2f52}} 
+\index{main.c++@{main.c++}!show@{show}}
+\index{show@{show}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the main menu options. 
+
+This function prints out the available options for the user to select from. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{main_8c_09_09_a4b148f40a95444d5669406b918ad2f52_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8c_09_09_a6a2e8be654511fc8d9d61fd2c43b70eb}\label{main_8c_09_09_a6a2e8be654511fc8d9d61fd2c43b70eb}} 
+\index{main.c++@{main.c++}!verify@{verify}}
+\index{verify@{verify}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{verify()}{verify()}}
+{\footnotesize\ttfamily void verify (\begin{DoxyParamCaption}\item[{void($\ast$)(void($\ast$)())}]{func }\end{DoxyParamCaption})}
+
+
+
+Verifies the user\textquotesingle{}s password before proceeding. 
+
+This function prompts the user to enter a password and validates it against the stored real password. It allows up to 3 attempts before terminating the program.
+
+
+\begin{DoxyParams}{Parameters}
+{\em func} & A pointer to the \textquotesingle{}process\textquotesingle{} function \\
+\hline
+\end{DoxyParams}
+$<$ Call the process function
+
+$<$ Re-\/call verificationHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{main_8c_09_09_a6a2e8be654511fc8d9d61fd2c43b70eb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{main_8c_09_09_a6a2e8be654511fc8d9d61fd2c43b70eb_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8c_09_09_a0e88b38f167218dabb67d6b857b2662c}\label{main_8c_09_09_a0e88b38f167218dabb67d6b857b2662c}} 
+\index{main.c++@{main.c++}!balance@{balance}}
+\index{balance@{balance}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{balance}{balance}}
+{\footnotesize\ttfamily unsigned int balance = 1000}
+
+
+
+Current account balance. 
+
+\mbox{\Hypertarget{main_8c_09_09_a99d5eace942cac61de65aefc69adbd5d}\label{main_8c_09_09_a99d5eace942cac61de65aefc69adbd5d}} 
+\index{main.c++@{main.c++}!choice@{choice}}
+\index{choice@{choice}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{choice}{choice}}
+{\footnotesize\ttfamily unsigned choice = 0}
+
+
+
+User\textquotesingle{}s menu choice. 
+
+\mbox{\Hypertarget{main_8c_09_09_a98a36e3d6e10be44dacf92826b9f1844}\label{main_8c_09_09_a98a36e3d6e10be44dacf92826b9f1844}} 
+\index{main.c++@{main.c++}!deposit@{deposit}}
+\index{deposit@{deposit}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{deposit}{deposit}}
+{\footnotesize\ttfamily unsigned int deposit = 0}
+
+
+
+Amount to deposit. 
+
+\mbox{\Hypertarget{main_8c_09_09_a7a71647d7d31e470e02ac3e2412f78ac}\label{main_8c_09_09_a7a71647d7d31e470e02ac3e2412f78ac}} 
+\index{main.c++@{main.c++}!input\_password@{input\_password}}
+\index{input\_password@{input\_password}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{input\_password}{input\_password}}
+{\footnotesize\ttfamily int input\+\_\+password = 0}
+
+
+
+User\textquotesingle{}s input password. 
+
+\mbox{\Hypertarget{main_8c_09_09_a59931f807c4c43ccc6707998c471bc01}\label{main_8c_09_09_a59931f807c4c43ccc6707998c471bc01}} 
+\index{main.c++@{main.c++}!real\_password@{real\_password}}
+\index{real\_password@{real\_password}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{real\_password}{real\_password}}
+{\footnotesize\ttfamily unsigned int real\+\_\+password = 1}
+
+
+
+The real password for verification. 
+
+\mbox{\Hypertarget{main_8c_09_09_a6e27f49150e9a14580fb313cc2777e00}\label{main_8c_09_09_a6e27f49150e9a14580fb313cc2777e00}} 
+\index{main.c++@{main.c++}!status@{status}}
+\index{status@{status}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{status}{status}}
+{\footnotesize\ttfamily int status = 0}
+
+
+
+Status to continue or exit the process. 
+
+\mbox{\Hypertarget{main_8c_09_09_abf0f9a530d509ce33dae2a45ef1483e0}\label{main_8c_09_09_abf0f9a530d509ce33dae2a45ef1483e0}} 
+\index{main.c++@{main.c++}!withdDraw@{withdDraw}}
+\index{withdDraw@{withdDraw}!main.c++@{main.c++}}
+\doxysubsubsection{\texorpdfstring{withdDraw}{withdDraw}}
+{\footnotesize\ttfamily unsigned int withd\+Draw = 0}
+
+
+
+Amount to withdraw. 
+
