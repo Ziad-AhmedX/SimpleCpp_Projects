@@ -1,0 +1,4 @@
+<map id="Student" name="Student">
+<area shape="rect" id="node1" title="Represents a Student, derived from BasePerson." alt="" coords="19,80,91,107"/>
+<area shape="rect" id="node2" href="$classBasePerson.html" title="A base class representing a person with basic attributes like id, name, age, and phone number." alt="" coords="5,5,104,32"/>
+</map>

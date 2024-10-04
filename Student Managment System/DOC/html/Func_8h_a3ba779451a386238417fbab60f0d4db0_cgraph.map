@@ -1,0 +1,23 @@
+<map id="loadData" name="loadData">
+<area shape="rect" id="node1" title="Loads Student data from a file." alt="" coords="5,333,87,360"/>
+<area shape="rect" id="node2" href="$Func_8h.html#a2f62e12057ef5971465770f7effbebdd" title="Handles the user&#39;s input and processes the respective functions." alt="" coords="135,333,205,360"/>
+<area shape="rect" id="node3" href="$Func_8h.html#ac750547960e06727f27f61bcab7487f3" title="Adds a new Student to the system." alt="" coords="266,308,391,335"/>
+<area shape="rect" id="node4" href="$Func_8h.html#a3386a7beff355a04a379d804c216b58e" title="Handles the process of exiting the program." alt="" coords="456,409,559,436"/>
+<area shape="rect" id="node5" href="$Func_8h.html#a5b86241374c9a379af845d4adaa170b5" title="Saves the current Student data to a file." alt="" coords="637,257,721,284"/>
+<area shape="rect" id="node14" href="$Func_8h.html#ab1ca877cf5f8bed69f2c4e29e8475b3f" title="Clears all Student records from the system." alt="" coords="265,409,393,436"/>
+<area shape="rect" id="node15" href="$Func_8h.html#ac1d0a5a972ff972f6e3de03a8ab1f6b3" title="Displays all Students currently in the system." alt="" coords="265,156,392,183"/>
+<area shape="rect" id="node16" href="$Func_8h.html#a2b0b043f500688e5d3291eb9794df6f8" title="Removes a Student from the system using their ID." alt="" coords="253,207,404,233"/>
+<area shape="rect" id="node17" href="$Func_8h.html#ae6270cf6caa188c07ca5a7dcad460c9b" title="Searches for a Student using their ID." alt="" coords="257,561,401,588"/>
+<area shape="rect" id="node20" href="$Func_8h.html#a4b148f40a95444d5669406b918ad2f52" title="Displays the main menu options for the Student management system." alt="" coords="301,511,357,537"/>
+<area shape="rect" id="node21" href="$Func_8h.html#a3ee13a706599175c7e56a1b6c894ff74" title="Updates an existing Student&#39;s information." alt="" coords="270,257,387,284"/>
+<area shape="rect" id="node6" href="$classBasePerson.html#a02bb1ce891b1c89e8ff3804b5043d519" title="Gets the age of the person." alt="" coords="829,283,981,309"/>
+<area shape="rect" id="node7" href="$classStudent.html#a73356e055e0999f97e867f30b6de536d" title="Gets the department of the Student." alt="" coords="816,5,995,32"/>
+<area shape="rect" id="node8" href="$classStudent.html#a97ce4b2c413678fc82194ed912de77c7" title="Gets the GPA of the Student." alt="" coords="842,57,969,84"/>
+<area shape="rect" id="node9" href="$classBasePerson.html#a6bd5a225f3284c69a458d6abbd24245a" title="Gets the ID of the person." alt="" coords="836,359,975,385"/>
+<area shape="rect" id="node10" href="$classBasePerson.html#ab26d5a7b96af76fd11af66a2d1983975" title="Gets the name of the person." alt="" coords="822,109,989,136"/>
+<area shape="rect" id="node11" href="$classBasePerson.html#a874fbb5d4a97b6b3e3e3c150aec2a7eb" title="Gets the phone number of the person with the country code +20 prefixed." alt="" coords="795,163,1016,189"/>
+<area shape="rect" id="node12" href="$classStudent.html#a47c7954d20124cdecfa7ab084fd777f7" title="Gets the year of study for the Student." alt="" coords="816,220,995,247"/>
+<area shape="rect" id="node13" href="$Func_8h.html#a5901f0abc50f1d7c2af517e57d266763" title="A helper function used during the data saving process." alt="" coords="857,511,953,537"/>
+<area shape="rect" id="node18" href="$classStudent.html#a78e0a36e97d117f12bd1879ca7e5cf9c" title="Prints the details of the Student." alt="" coords="452,561,563,588"/>
+<area shape="rect" id="node19" href="$classBasePerson.html#afd7682877d5f58425f5b3454b0db55b2" title="Prints the details of the person." alt="" coords="611,561,747,588"/>
+</map>

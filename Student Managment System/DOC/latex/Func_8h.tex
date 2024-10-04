@@ -1,0 +1,650 @@
+\hypertarget{Func_8h}{}\doxysection{Func.\+h File Reference}
+\label{Func_8h}\index{Func.h@{Func.h}}
+
+
+Provides declarations for functions related to \mbox{\hyperlink{classStudent}{Student}} management.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include \char`\"{}Student.\+h\char`\"{}}\newline
+Include dependency graph for Func.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{Func_8h_a4b148f40a95444d5669406b918ad2f52}{show}} ()
+\begin{DoxyCompactList}\small\item\em Displays the main menu options for the \mbox{\hyperlink{classStudent}{Student}} management system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_a2f62e12057ef5971465770f7effbebdd}{handler}} ()
+\begin{DoxyCompactList}\small\item\em Handles the user\textquotesingle{}s input and processes the respective functions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_ac750547960e06727f27f61bcab7487f3}{add\+New\+Student}} ()
+\begin{DoxyCompactList}\small\item\em Adds a new \mbox{\hyperlink{classStudent}{Student}} to the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_a3ee13a706599175c7e56a1b6c894ff74}{update\+Student}} ()
+\begin{DoxyCompactList}\small\item\em Updates an existing \mbox{\hyperlink{classStudent}{Student}}\textquotesingle{}s information. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_ae6270cf6caa188c07ca5a7dcad460c9b}{search\+Student\+By\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Searches for a \mbox{\hyperlink{classStudent}{Student}} using their ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_a2b0b043f500688e5d3291eb9794df6f8}{remove\+Student\+By\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Removes a \mbox{\hyperlink{classStudent}{Student}} from the system using their ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_ac1d0a5a972ff972f6e3de03a8ab1f6b3}{display\+Students}} ()
+\begin{DoxyCompactList}\small\item\em Displays all Students currently in the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_ab1ca877cf5f8bed69f2c4e29e8475b3f}{clear\+All\+Students}} ()
+\begin{DoxyCompactList}\small\item\em Clears all \mbox{\hyperlink{classStudent}{Student}} records from the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_a5b86241374c9a379af845d4adaa170b5}{save\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Saves the current \mbox{\hyperlink{classStudent}{Student}} data to a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_a5901f0abc50f1d7c2af517e57d266763}{save\+Helper}} ()
+\begin{DoxyCompactList}\small\item\em A helper function used during the data saving process. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_a3ba779451a386238417fbab60f0d4db0}{load\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Loads \mbox{\hyperlink{classStudent}{Student}} data from a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Func_8h_a3386a7beff355a04a379d804c216b58e}{exit\+Program}} ()
+\begin{DoxyCompactList}\small\item\em Handles the process of exiting the program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{Func_8h_a28d91f07e5d6abb2fdec4fc3efcd3ba2}\label{Func_8h_a28d91f07e5d6abb2fdec4fc3efcd3ba2}} 
+vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink{Func_8h_a28d91f07e5d6abb2fdec4fc3efcd3ba2}{Students}}
+\begin{DoxyCompactList}\small\item\em A global vector to store all \mbox{\hyperlink{classStudent}{Student}} objects. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{Func_8h_acc6edb9c0093b410b32b64c1c167a177}\label{Func_8h_acc6edb9c0093b410b32b64c1c167a177}} 
+int \mbox{\hyperlink{Func_8h_acc6edb9c0093b410b32b64c1c167a177}{Yes\+No}}
+\begin{DoxyCompactList}\small\item\em A global variable to capture Yes/\+No responses. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{Func_8h_a665f667ae77e8739fcbb1470ae139819}{exit\+Status}}
+\begin{DoxyCompactList}\small\item\em A global status variable to manage program exit status. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides declarations for functions related to \mbox{\hyperlink{classStudent}{Student}} management. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Func_8h_ac750547960e06727f27f61bcab7487f3}\label{Func_8h_ac750547960e06727f27f61bcab7487f3}} 
+\index{Func.h@{Func.h}!addNewStudent@{addNewStudent}}
+\index{addNewStudent@{addNewStudent}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{addNewStudent()}{addNewStudent()}}
+{\footnotesize\ttfamily void add\+New\+Student (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Adds a new \mbox{\hyperlink{classStudent}{Student}} to the system. 
+
+Adds a new \mbox{\hyperlink{classStudent}{Student}} to the system.
+
+This function prompts the user to enter details for a new student, checks if the entered ID is already taken, and then adds the new student to the list of students.
+
+If the ID is already taken, the user is prompted to enter another ID, with a maximum of 3 attempts before the program exits. The ID of the student.
+
+The name of the student.
+
+The age of the student.
+
+The department of the student.
+
+The academic year of the student.
+
+The phone number of the student.
+
+The GPA of the student.
+
+Static variable to track the number of attempts.
+
+Check if the ID is already taken by any existing student.
+
+Loops through the list of students and compares their IDs to the newly entered one.
+
+Recursive call if the ID is already taken, allowing up to 3 attempts.
+
+Create a new student object and add it to the list.
+
+Prompt the user to continue or exit the program.
+
+If the user selects \char`\"{}\+Yes\char`\"{}, the handler function is called. Otherwise, the program exits.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ac750547960e06727f27f61bcab7487f3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ac750547960e06727f27f61bcab7487f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_ab1ca877cf5f8bed69f2c4e29e8475b3f}\label{Func_8h_ab1ca877cf5f8bed69f2c4e29e8475b3f}} 
+\index{Func.h@{Func.h}!clearAllStudents@{clearAllStudents}}
+\index{clearAllStudents@{clearAllStudents}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{clearAllStudents()}{clearAllStudents()}}
+{\footnotesize\ttfamily void clear\+All\+Students (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears all \mbox{\hyperlink{classStudent}{Student}} records from the system. 
+
+Clears all \mbox{\hyperlink{classStudent}{Student}} records from the system.
+
+Provides three options for clearing students\+:
+\begin{DoxyEnumerate}
+\item Clear from memory only.
+\item Clear from the database only.
+\item Clear from both memory and the database.
+\end{DoxyEnumerate}
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & Variable to store the user\textquotesingle{}s choice of action. \\
+\hline
+{\em Yes\+No} & Variable to store user input for processing another operation.\\
+\hline
+\end{DoxyParams}
+This function handles user input and processes clearing students from memory and/or database. $<$ Variable to store the user\textquotesingle{}s choice.
+
+$<$ Asks if the user wants to perform another operation.
+
+$<$ Resets the Yes\+No variable for future use.
+
+$<$ Calls the handler function to process another operation.
+
+$<$ Exits the program if the user selects \char`\"{}\+No\char`\"{}.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ab1ca877cf5f8bed69f2c4e29e8475b3f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ab1ca877cf5f8bed69f2c4e29e8475b3f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_ac1d0a5a972ff972f6e3de03a8ab1f6b3}\label{Func_8h_ac1d0a5a972ff972f6e3de03a8ab1f6b3}} 
+\index{Func.h@{Func.h}!displayStudents@{displayStudents}}
+\index{displayStudents@{displayStudents}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{displayStudents()}{displayStudents()}}
+{\footnotesize\ttfamily void display\+Students (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays all Students currently in the system. 
+
+Displays all Students currently in the system.
+
+If there are no students in the list (Students), it informs the user that no students are available to display. If there are students, it prints a table showing the ID, Name, Age, Department, Student\+Year, Phone\+Number, and GPA of each student. Finally, it asks the user whether they want to perform another operation or exit.
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+$<$ Call the handler function if user wants to continue.
+
+$<$ Exit the program if user chooses to stop.
+
+$<$ Print separator line.
+
+$<$ Call the handler function if user wants to continue.
+
+$<$ Exit the program if user chooses to stop.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ac1d0a5a972ff972f6e3de03a8ab1f6b3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ac1d0a5a972ff972f6e3de03a8ab1f6b3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a3386a7beff355a04a379d804c216b58e}\label{Func_8h_a3386a7beff355a04a379d804c216b58e}} 
+\index{Func.h@{Func.h}!exitProgram@{exitProgram}}
+\index{exitProgram@{exitProgram}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{exitProgram()}{exitProgram()}}
+{\footnotesize\ttfamily void exit\+Program (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles the process of exiting the program. 
+
+Handles the process of exiting the program.
+
+This function prompts the user to save any changes before exiting. If the user chooses to save, the save\+Data function is called.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Yes\+No} & A variable to store the user\textquotesingle{}s choice to save or not. \\
+\hline
+{\em exit\+Status} & A flag to indicate the status before exiting. \\
+\hline
+\end{DoxyParams}
+$<$ Prompt the user to save changes before exiting.
+
+$<$ Set exit status to indicate that save\+Data should be called.
+
+$<$ Reset Yes\+No after user input.
+
+$<$ Call save\+Data to save changes.
+
+$<$ Terminate the program.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a3386a7beff355a04a379d804c216b58e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a3386a7beff355a04a379d804c216b58e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a2f62e12057ef5971465770f7effbebdd}\label{Func_8h_a2f62e12057ef5971465770f7effbebdd}} 
+\index{Func.h@{Func.h}!handler@{handler}}
+\index{handler@{handler}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{handler()}{handler()}}
+{\footnotesize\ttfamily void handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles the user\textquotesingle{}s input and processes the respective functions. 
+
+Handles the user\textquotesingle{}s input and processes the respective functions.
+
+This function takes the user\textquotesingle{}s input and calls the corresponding function based on the choice. It uses a switch-\/case structure to determine the action to be taken. Static variable to store the user\textquotesingle{}s choice.
+
+Case 1\+: Display all students.
+
+Case 2\+: Clear all student records.
+
+Case 3\+: Add a new student.
+
+Case 4\+: Remove a student by their ID.
+
+Case 5\+: Update a student\textquotesingle{}s information.
+
+Case 6\+: Search for a student by their ID.
+
+Case 7\+: Save all student data to a file.
+
+Case 8\+: Load student data from a file.
+
+Case 9\+: Exit the program.
+
+Default case\+: Handle invalid input from the user.
+
+Static variable to track the number of incorrect attempts.
+
+Check if the new input is valid and re-\/call handler.
+
+Exits the program after three invalid attempts.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a2f62e12057ef5971465770f7effbebdd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a2f62e12057ef5971465770f7effbebdd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a3ba779451a386238417fbab60f0d4db0}\label{Func_8h_a3ba779451a386238417fbab60f0d4db0}} 
+\index{Func.h@{Func.h}!loadData@{loadData}}
+\index{loadData@{loadData}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{loadData()}{loadData()}}
+{\footnotesize\ttfamily void load\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads \mbox{\hyperlink{classStudent}{Student}} data from a file. 
+
+Loads \mbox{\hyperlink{classStudent}{Student}} data from a file.
+
+This function reads student data from \char`\"{}data//\+Students.\+txt\char`\"{}, parses the content, and adds each student to the Students vector. The first line (header) is skipped.
+
+
+\begin{DoxyParams}{Parameters}
+{\em load\+Num} & A static counter to track if this function has been called before. \\
+\hline
+{\em Yes\+No} & A variable to store the user\textquotesingle{}s response for performing another operation.\\
+\hline
+\end{DoxyParams}
+If the file cannot be opened, an error message is displayed. After loading the data, the user is asked if they want to perform another operation if the function has been called more than once. $<$ Static counter to track if load\+Data has been called before.
+
+$<$ Input file stream to read the data file.
+
+$<$ Temporary string to store each line of the file.
+
+$<$ Skip the header line.
+
+$<$ String stream to parse each line.
+
+$<$ Convert id string to integer.
+
+$<$ Convert age string to integer.
+
+$<$ Convert GPA string to double.
+
+$<$ Close the file after reading all data.
+
+$<$ Error message if file can\textquotesingle{}t be opened.
+
+$<$ Ask if the user wants to perform another operation.
+
+$<$ Reset Yes\+No to 0 for future use.
+
+$<$ Call handler to continue the program.
+
+$<$ Exit the program.
+
+$<$ Increment load\+Num to indicate that load\+Data has been called.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a3ba779451a386238417fbab60f0d4db0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a3ba779451a386238417fbab60f0d4db0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a2b0b043f500688e5d3291eb9794df6f8}\label{Func_8h_a2b0b043f500688e5d3291eb9794df6f8}} 
+\index{Func.h@{Func.h}!removeStudentById@{removeStudentById}}
+\index{removeStudentById@{removeStudentById}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{removeStudentById()}{removeStudentById()}}
+{\footnotesize\ttfamily void remove\+Student\+By\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Removes a \mbox{\hyperlink{classStudent}{Student}} from the system using their ID. 
+
+Removes a \mbox{\hyperlink{classStudent}{Student}} from the system using their ID.
+
+Prompts the user to enter a student ID, then searches the list of students (Students) and removes the student if found. If the student is removed, it confirms the removal. If not found, it informs the user. Finally, it asks the user whether they want to perform another operation or exit.
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+$<$ Variable to store the student ID entered by the user.
+
+$<$ Flag to track if the student is found.
+
+$<$ Remove student from the list.
+
+$<$ Call the handler function if user wants to continue.
+
+$<$ Exit the program if user chooses to stop.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a2b0b043f500688e5d3291eb9794df6f8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a2b0b043f500688e5d3291eb9794df6f8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a5b86241374c9a379af845d4adaa170b5}\label{Func_8h_a5b86241374c9a379af845d4adaa170b5}} 
+\index{Func.h@{Func.h}!saveData@{saveData}}
+\index{saveData@{saveData}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{saveData()}{saveData()}}
+{\footnotesize\ttfamily void save\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Saves the current \mbox{\hyperlink{classStudent}{Student}} data to a file. 
+
+Saves the current \mbox{\hyperlink{classStudent}{Student}} data to a file.
+
+This function writes all student information to a file located at \char`\"{}data//\+Students.\+txt\char`\"{}. If the file cannot be opened, it will display an error message.
+
+
+\begin{DoxyParams}{Parameters}
+{\em exit\+Status} & A status flag to track if the function should call save\+Helper. \\
+\hline
+\end{DoxyParams}
+$<$ Opens file to write student data.
+
+$<$ Closes the file after writing.
+
+$<$ Calls helper function to ask if the user wants to perform another operation.
+
+$<$ Updates the exit status flag.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a5b86241374c9a379af845d4adaa170b5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a5b86241374c9a379af845d4adaa170b5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a5901f0abc50f1d7c2af517e57d266763}\label{Func_8h_a5901f0abc50f1d7c2af517e57d266763}} 
+\index{Func.h@{Func.h}!saveHelper@{saveHelper}}
+\index{saveHelper@{saveHelper}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{saveHelper()}{saveHelper()}}
+{\footnotesize\ttfamily void save\+Helper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A helper function used during the data saving process. 
+
+A helper function used during the data saving process.
+
+Asks the user if they would like to perform another operation after saving data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Yes\+No} & Variable to store the user\textquotesingle{}s response. \\
+\hline
+\end{DoxyParams}
+$<$ Takes input from the user.
+
+$<$ Resets the Yes\+No variable.
+
+$<$ Calls the handler function for the next operation.
+
+$<$ Terminates the program.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a5901f0abc50f1d7c2af517e57d266763_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a5901f0abc50f1d7c2af517e57d266763_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_ae6270cf6caa188c07ca5a7dcad460c9b}\label{Func_8h_ae6270cf6caa188c07ca5a7dcad460c9b}} 
+\index{Func.h@{Func.h}!searchStudentById@{searchStudentById}}
+\index{searchStudentById@{searchStudentById}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{searchStudentById()}{searchStudentById()}}
+{\footnotesize\ttfamily void search\+Student\+By\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Searches for a \mbox{\hyperlink{classStudent}{Student}} using their ID. 
+
+Searches for a \mbox{\hyperlink{classStudent}{Student}} using their ID.
+
+Prompts the user to enter a student ID, and then searches the list of students (Students) to find a matching student. If found, it displays the student\textquotesingle{}s details. If not found, it informs the user. After that, the user is asked whether they want to perform another operation or exit the program.
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+$<$ Variable to store the student ID entered by the user.
+
+$<$ Flag to track if the student is found.
+
+$<$ Print student details if found.
+
+$<$ Call the handler function if user wants to continue.
+
+$<$ Exit the program if user chooses to stop.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ae6270cf6caa188c07ca5a7dcad460c9b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_ae6270cf6caa188c07ca5a7dcad460c9b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a4b148f40a95444d5669406b918ad2f52}\label{Func_8h_a4b148f40a95444d5669406b918ad2f52}} 
+\index{Func.h@{Func.h}!show@{show}}
+\index{show@{show}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the main menu options for the \mbox{\hyperlink{classStudent}{Student}} management system. 
+
+Displays the main menu options for the \mbox{\hyperlink{classStudent}{Student}} management system.
+
+This function prints the available options for the user to interact with the system. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a4b148f40a95444d5669406b918ad2f52_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{Func_8h_a3ee13a706599175c7e56a1b6c894ff74}\label{Func_8h_a3ee13a706599175c7e56a1b6c894ff74}} 
+\index{Func.h@{Func.h}!updateStudent@{updateStudent}}
+\index{updateStudent@{updateStudent}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{updateStudent()}{updateStudent()}}
+{\footnotesize\ttfamily void update\+Student (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates an existing \mbox{\hyperlink{classStudent}{Student}}\textquotesingle{}s information. 
+
+Updates an existing \mbox{\hyperlink{classStudent}{Student}}\textquotesingle{}s information.
+
+This function allows the user to update the information of a student by their ID. The user can update individual fields (Name, Age, Department, etc.) or update all fields at once. The function continues to prompt the user for further updates until they choose to exit. The name of the student to update.
+
+The age of the student to update.
+
+The department of the student to update.
+
+The academic year of the student to update.
+
+The phone number of the student to update.
+
+The GPA of the student to update.
+
+Iterator to traverse the list of students.
+
+The ID of the student being searched for.
+
+The user\textquotesingle{}s choice of field to update.
+
+Boolean to track if the student was found.
+
+Loop through the list of students to find the matching ID.
+
+Switch-\/case structure to handle the field selection and update.
+
+After the update is done, print the student\textquotesingle{}s updated details.
+
+If the student with the given ID was not found, notify the user.
+
+Prompt the user to process another operation or exit the program.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a3ee13a706599175c7e56a1b6c894ff74_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Func_8h_a3ee13a706599175c7e56a1b6c894ff74_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{Func_8h_a665f667ae77e8739fcbb1470ae139819}\label{Func_8h_a665f667ae77e8739fcbb1470ae139819}} 
+\index{Func.h@{Func.h}!exitStatus@{exitStatus}}
+\index{exitStatus@{exitStatus}!Func.h@{Func.h}}
+\doxysubsubsection{\texorpdfstring{exitStatus}{exitStatus}}
+{\footnotesize\ttfamily bool exit\+Status\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+A global status variable to manage program exit status. 
+
+This variable prevents the program from prompting the user for another operation after saving data when you terminate the program. When set to zero, it indicates that data has been successfully ~\newline
+ saved, and the program should exit immediately without asking the user if they want to perform another operation. 

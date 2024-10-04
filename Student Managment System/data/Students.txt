@@ -1,0 +1,4 @@
+ID,Name,Age,Department,StudentYear,Phone Number,GPA
+1,Ziad Ahmed ,21,ECE,3,+203333333333,3.2
+2,Goda ,22,ECE,3,+205555555555,3.5
+3,ahmed,23,CSE,3,+201111111111,3.4

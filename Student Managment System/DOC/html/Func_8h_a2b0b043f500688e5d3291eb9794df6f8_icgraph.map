@@ -1,0 +1,13 @@
+<map id="removeStudentById" name="removeStudentById">
+<area shape="rect" id="node1" title="Removes a Student from the system using their ID." alt="" coords="743,293,893,320"/>
+<area shape="rect" id="node2" href="$Func_8h.html#a2f62e12057ef5971465770f7effbebdd" title="Handles the user&#39;s input and processes the respective functions." alt="" coords="624,293,695,320"/>
+<area shape="rect" id="node3" href="$Func_8h.html#ac750547960e06727f27f61bcab7487f3" title="Adds a new Student to the system." alt="" coords="15,80,140,107"/>
+<area shape="rect" id="node4" href="$Func_8h.html#ab1ca877cf5f8bed69f2c4e29e8475b3f" title="Clears all Student records from the system." alt="" coords="13,155,141,181"/>
+<area shape="rect" id="node5" href="$Func_8h.html#ac1d0a5a972ff972f6e3de03a8ab1f6b3" title="Displays all Students currently in the system." alt="" coords="14,432,141,459"/>
+<area shape="rect" id="node6" href="$Func_8h.html#a3ba779451a386238417fbab60f0d4db0" title="Loads Student data from a file." alt="" coords="487,319,569,345"/>
+<area shape="rect" id="node7" href="$Func_8h.html#a5901f0abc50f1d7c2af517e57d266763" title="A helper function used during the data saving process." alt="" coords="480,268,576,295"/>
+<area shape="rect" id="node10" href="$Func_8h.html#ae6270cf6caa188c07ca5a7dcad460c9b" title="Searches for a Student using their ID." alt="" coords="5,557,149,584"/>
+<area shape="rect" id="node11" href="$Func_8h.html#a3ee13a706599175c7e56a1b6c894ff74" title="Updates an existing Student&#39;s information." alt="" coords="19,5,136,32"/>
+<area shape="rect" id="node8" href="$Func_8h.html#a5b86241374c9a379af845d4adaa170b5" title="Saves the current Student data to a file." alt="" coords="348,268,432,295"/>
+<area shape="rect" id="node9" href="$Func_8h.html#a3386a7beff355a04a379d804c216b58e" title="Handles the process of exiting the program." alt="" coords="197,319,300,345"/>
+</map>
