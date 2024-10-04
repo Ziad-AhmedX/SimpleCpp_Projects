@@ -3,17 +3,17 @@
 using namespace std;
 
 /** \brief Current account balance */
-unsigned int balance = 1000;
+int balance = 1000;
 /** \brief Amount to deposit */
-unsigned int deposit = 0;
+int deposit = 0;
 /** \brief Amount to withdraw */
-unsigned int withdDraw = 0;
+int withdDraw = 0;
 /** \brief The real password for verification */
-unsigned int real_password = 1;
+int real_password = 1;
 /** \brief User's input password */
 int input_password = 0;
 /** \brief User's menu choice */
-unsigned choice = 0;
+int choice = 0;
 /** \brief Status to continue or exit the process */
 int status = 0;
 
